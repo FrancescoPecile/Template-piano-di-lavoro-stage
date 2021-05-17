@@ -14,25 +14,23 @@
 \newcommand{\dataApprovazione}{Data}
 
 % Dati dello Studente
-\newcommand{\nomeStudente}{Pinco}
-\newcommand{\cognomeStudente}{Pallino}
-\newcommand{\matricolaStudente}{1000000}
-\newcommand{\emailStudente}{mail@studenti.unipd.it}
-\newcommand{\telStudente}{+ 39 000 00 00 000}
+\newcommand{\nomeStudente}{Francesco}
+\newcommand{\cognomeStudente}{Pecile}
+\newcommand{\matricolaStudente}{1120771}
+\newcommand{\emailStudente}{francesco.pecile.1@studenti.unipd.it}
+\newcommand{\telStudente}{3457871996}
 
 % Dati del Tutor Aziendale
-\newcommand{\nomeTutorAziendale}{nomeTutor}
-\newcommand{\cognomeTutorAziendale}{cognomeTutor}
-\newcommand{\emailTutorAziendale}{mail@mail.it}
-\newcommand{\telTutorAziendale}{+ 39 000 00 00 000}
+\newcommand{\nomeTutorAziendale}{Antonio}
+\newcommand{\cognomeTutorAziendale}{Cavestro}
+\newcommand{\emailTutorAziendale}{antonio.cavestro@livestory.nyc}
 \newcommand{\ruoloTutorAziendale}{}
 
 % Dati dell'Azienda
-\newcommand{\ragioneSocAzienda}{Azienda S.p.A}
+\newcommand{\ragioneSocAzienda}{LiveStory SRL}
 \newcommand{\indirizzoAzienda}{Via Roma 1, Roma (RM)}
-\newcommand{\sitoAzienda}{http://example.com/}
-\newcommand{\emailAzienda}{mail@mail.it}
-\newcommand{\partitaIVAAzienda}{P.IVA 12345678999}
+\newcommand{\sitoAzienda}{https://www.livestory.nyc/}
+\newcommand{\emailAzienda}{info@livestory.nyc}
 
 % Dati del Tutor Interno (Docente)
 \newcommand{\titoloTutorInterno}{Prof.}
@@ -43,62 +41,91 @@
      % Personalizzare indicando in lista, i vari task settimana per settimana
      % sostituire a XX il totale ore della settimana
     \begin{itemize}
-        \item \textbf{Prima Settimana (XX ore)}
+        \item \textbf{Prima Settimana}
         \begin{itemize}
-            \item Incontro con persone coinvolte nel progetto per discutere i requisiti e le richieste
-            relativamente al sistema da sviluppare;
-            \item Verifica credenziali e strumenti di lavoro assegnati;
-            \item Presa visione dell’infrastruttura esistente;
-            \item Formazione sulle tecnologie adottate;
+            \item Analisi dei requisiti funzionali del sistema da             sviluppare;
+            \item Ricerca, studio e documentazione sulle tecnologie e le tecniche di integrazione dati relative a ERP SAP e Google Analytics.
+            \item Documentazione relativa.
         \end{itemize}
-        \item \textbf{Seconda Settimana - Sottotitolo (XX ore)} 
+        \item \textbf{Seconda Settimana} 
         \begin{itemize}
-            \item ;
+            \item Progettazione base dati MongoDB;
+            \item Progettazione e implementazione del software di interrogazione e estrazione dati da SAP e/o Google Analytics;
+            \item Documentazione relativa.
         \end{itemize}
-        \item \textbf{Terza Settimana - Sottotitolo (XX ore)} 
+        \item \textbf{Terza Settimana} 
         \begin{itemize}
-            \item ;
+            \item Progettazione architetturale di alto livello dell’applicativo web;
+            \item Definizione di interfacce (REST);
+            \item Approfondimento tecnologico;
+            \item Documentazione relativa.
         \end{itemize}
-        \item \textbf{Quarta Settimana - Sottotitolo (XX ore)} 
+        \item \textbf{Quarta Settimana} 
         \begin{itemize}
-            \item ;
+            \item Progettazione di basso livello dell’applicativo web;
+            \item Inizio implementazione applicativo;
+            \item Documentazione relativa.
         \end{itemize}
-        \item \textbf{Quinta Settimana - Sottotitolo (XX ore)} 
+        \item \textbf{Quinta Settimana} 
         \begin{itemize}
-            \item ;
+            \item Prosecuzione dell’implementazione dell’applicativo e scrittura relativa documentazione;
+            \item Rilascio in ambiente di sviluppo della prima base di applicazione;
+            \item Documentazione relativa.
         \end{itemize}
-        \item \textbf{Sesta Settimana - Sottotitolo (XX ore)} 
+        \item \textbf{Sesta Settimana } 
         \begin{itemize}
-            \item ;
+            \item Prosecuzione dell’implementazione applicativo web e scrittura relativa documentazione;
+            \item  Rilascio in ambiente di sviluppo.
         \end{itemize}
-        \item \textbf{Settima Settimana - Sottotitolo (XX ore)} 
+        \item \textbf{Settima Settimana} 
         \begin{itemize}
-            \item ;
+            \item Conclusione implementazione applicativo web e relativa
+documentazione;
+            \item Milestone: completamento obiettivi minimi.
         \end{itemize}
-        \item \textbf{Ottava Settimana - Conclusione (XX ore)} 
+        \item \textbf{Ottava Settimana} 
         \begin{itemize}
-            \item ;
+            \item Ricerca, studio e documentazione relativa a pattern microservices,DevOps e continuous integration. (formativo);
+            \item Documentazione relativa.
+            \item Implementazione del supporto di Docker da parte dell’applicativo web sviluppato. (produttivo);
+            \item Milestone: completamento obiettivi massimi.
         \end{itemize}
     \end{itemize}
 }
 
 % Indicare il totale complessivo (deve essere compreso tra le 300 e le 320 ore)
-\newcommand{\totaleOre}{}
+\newcommand{\totaleOre}{320}
 
-\newcommand{\obiettiviObbligatori}{
-	 \item \underline{\textit{O01}}: primo obiettivo;
-	 \item \underline{\textit{O02}}: secondo obiettivo;
-	 \item \underline{\textit{O03}}: terzo obiettivo;
+\newcommand{\obiettiviFormativiMinimi}{
+	 \item \underline{\textit{FMI1}}: Conoscenza dello stack tecnologico basato su Node.js, MongoDB,
+Mongoose e AngularJS, peculiarità, pro e contro. Quali sono i possibili
+casi d’uso e quali no;
+
+	 \item \underline{\textit{FMI2}}:Esplorazione e studio di soluzioni di system integration verso ERP SAP
+B1 e/o al servizio Google Analytics;
+	 \item \underline{\textit{FMI3}}:  Esplorazione del modello DevOps orientato a rilasci frequenti e
+automatizzati, non solo SW Engineering & QA ma anche IT Ops.
 	 
 }
 
-\newcommand{\obiettiviDesiderabili}{
-	 \item \underline{\textit{D01}}: primo obiettivo;
-	 \item \underline{\textit{D02}}: secondo obiettivo;
+\newcommand{\obiettiviFormativiMassimi}{
+	 \item \underline{\textit{FMA1}}:Presa di coscienza di come il servizio sviluppato si colloca in un
+ecosistema di altri servizi. Introduzione ai microservices;
+	 \item \underline{\textit{FMA2}}: Avvicinamento a problemi e soluzioni relativi alla scalabilità di sistema
+	 \item \underline{\textit{FMA3}}:Perché containers? Avvicinamento alla piattaforma Docker.
 }
 
-\newcommand{\obiettiviFacoltativi}{
-	 \item \underline{\textit{F01}}: primo obiettivo;
-	 \item \underline{\textit{F02}}: secondo obiettivo;
-	 \item \underline{\textit{F03}}: terzo obiettivo;
+\newcommand{\obiettiviProduttiviMinimi}{
+	 \item \underline{\textit{PMI1}}: Realizzazione base dati in MongoDB per la persistenza dei dati
+interessati;
+	 \item \underline{\textit{PMI2}}: Realizzazione di un modulo di system integration per il recupero dati da
+SAP e/o Google Analytics;
+	 \item \underline{\textit{PMI3}}: Realizzazione di un servizio backend e uno frontend per la presentazione
+dei dati estratti.
+
+}
+\newcommand{\obiettiviProduttiviMassimi}{
+ \item \underline{\textit{PMA1}}:Progettazione e sviluppo di servizi orientati alla scalabilità
+  \item \underline{\textit{PMA2}}:Progettazione e sviluppo di servizi adatti ad un modello DevOps(Docker);
+   \item \underline{\textit{PMA3}}:Dati gli strumenti adeguati, autonomia nello sviluppo e nei rilasci (Assaggio di DevOps e Continuous Integration)
 }
